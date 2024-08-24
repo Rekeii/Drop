@@ -22,6 +22,19 @@ a science that deals with the study, design and calibration of temperature measu
 	- Kelvin Scale
 	- Rankine Scale
 
+Conversion between Temperature Scale:
+$$
+
+\begin{align}
+t_c \, &= \, \frac{5}{9} \>\cdot \> (t_f - 32) \\ \notag \\
+t_f \, &= \, (\frac{9}{5} \>\cdot \> t_c)\>+ \>32 \notag \\ \notag \\
+t_k \, &= \,t_c \> + \> 273.15 \notag \\ \notag \\
+t_r \, &= \, t_f \> + \> 460 \notag 
+
+\end{align}
+
+$$
+
 ## Problems on Temperature Scales:
 ### SW01 , August 19, 2024
 These problems are to practice your temperature conversion skills. Here, we use a math concept called *linear transformation,* where we take advantage of the proportional relationship present between both different temperature scales to convert temperatures from one scale to another. The typical formula that we will use would be:
@@ -45,29 +58,29 @@ Where $T_{1}  \>\text{and} \> T_2$ are equivalent temperatures however in differ
 $$
 \begin{align}
 
-\frac{(109 °X - x)}{(109 °X - (-22 °X))} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)} \\\\
-\clap{OR} \\
-\frac{(x - (-22 °X))}{(109 °X - (-22 °X))} &= \frac{(43 °C - 0 °C)}{(100 °C -  0 °C)} \\\\
-\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\\
-x &= 34.33°X \\
-&\approx 34°X \\\\\\
+    \frac{(109 °X - x)}{(109 °X - (-22 °X))} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)}\notag \\\notag\\
+\clap{OR} \notag\\
+\frac{(x - (-22 °X))}{(109 °X - (-22 °X))} &= \frac{(43 °C - 0 °C)}{(100 °C -  0 °C)} \notag\\\notag\\
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x &= 34.33°X \notag\\
+&\approx 34°X \notag\\\notag\\\notag\\
 
-\clap{Algebraically:} \\\\
+\clap{Algebraically:} \notag \\\notag\\ \notag
 
-\frac{(109 °X - x)}{(109 °X - (-22 °X))} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)} \tag{1}\\\\\\
-\clap{Simplify:} \\\\
-\frac{(109 °X - x)}{(109 °X + 22 °X)} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)} \tag{2}\\\\
-\frac{109 °X - x}{131 °X} &= \frac{100 °C - 43 °C}{100 °C} \tag{3}\\\\\\
-\clap{Cross multiply:} \\\\
+\frac{(109 °X - x)}{(109 °X - (-22 °X))} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)} \tag{1}\\\notag\\\notag\\
+\clap{Simplify:} \notag\\\notag\\
+\frac{(109 °X - x)}{(109 °X + 22 °X)} &= \frac{(100 °C - 43 °C)}{(100 °C -  0 °C)} \tag{2}\\\notag\\
+\frac{109 °X - x}{131 °X} &= \frac{100 °C - 43 °C}{100 °C} \tag{3}\\\notag\\\notag\\
+\clap{Cross multiply:} \notag\\\notag\\
 (109°X - x) \times 100 °C &= 131 °X \times 57°C\tag{4}\\
 (10900°CX) - 100°C \times x &= 7467°CX\tag{5}\\
 10900°CX - 7467°CX &= 100°C \times x \tag{6}\\
 3433°CX  &= 100°C \times x \tag{7}\\
 x &= \frac{3433\cancel{°C}X}{100\cancel{°C}}\tag{8}\\
-x &= 34.33°X \\
-&\approx 34°X \\\\
-\clap{equivalent to SHIFT+SOLVE value:}\\\\
-34°X &= 34°X \quad \text{✔} \\\\
+x &= 34.33°X \notag\\
+&\approx 34°X \notag\\\notag\\
+\clap{equivalent to SHIFT+SOLVE value:}\notag\\\notag\\
+34°X &= 34°X \quad \text{✔} \notag\\\notag\\
 \end{align}
 
 $$
@@ -82,10 +95,10 @@ $$
 $$ 
 \begin{align}
 
-\frac{14 °B - x}{222 °B - 14 °B}&= \frac{1063° C - (-273 °C)}{2808 °C - 1063 °C}\\\\
-\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\\
-x &= -145.25°X \\
-&\approx 145°X \\\\\\
+\frac{14 °B - x}{222 °B - 14 °B}&= \frac{1063° C - (-273 °C)}{2808 °C - 1063 °C}\notag\\\notag\\
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x &= -145.25°X \notag\\
+&\approx 145°X \notag\\\notag\\\notag\\
 
 \end{align}
 $$
@@ -100,10 +113,10 @@ $$
 $$ 
 \begin{align}
 
-\frac{16 °B - (-37 °B)}{170 °B - 16 °B}&= \frac{1063 °C - x}{2808 °C - 1063 °C}\\\\
-\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\\
-x &= 462.44°C \\
-&\approx 462°C \\\\\\
+\frac{16 °B - (-37 °B)}{170 °B - 16 °B}&= \frac{1063 °C - x}{2808 °C - 1063 °C} \notag\\\notag\\
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x &= 462.44°C \notag\\
+&\approx 462°C \notag\\\notag\\\notag\\
 
 \end{align}
 $$
@@ -118,21 +131,64 @@ $$
 $$ 
 \begin{align}
 
-\frac{52 °I - x}{990 °I - 52 °I}&= \frac{32 °F - (-460 °F)}{212 °F - 32 °F}\\\\
-\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\\
-x &= -2511.86 °I \\
-&\approx -2512 °I \\\\\\
+\frac{52 °I - x}{990 °I - 52 °I}&= \frac{32 °F - (-460 °F)}{212 °F - 32 °F} \notag\\\notag\\
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x &= -2511.86 °I \notag\\
+&\approx -2512 °I \notag\\\notag\\
 
 \end{align}
 $$
 
-
 > [!info] Info
 > **Remember!** Ice point = Freezing Point; Steam Point = Boiling Point
 
+## **Thermal Expansion or Contraction**
+A phenomenon where in the dimensions of the body change whenever there is a change in temperature (*driving force*).
+
+The change in dimension of the body depends on the following:
+- original dimension, $L, \>A, \> V\>$ (length, area, volume)
+- change in temperature, $\Delta \, t$
+- coefficient of expansion, $\alpha \> , \gamma \> ,\beta, \> \frac{1}{C}$
+    - reflects the rate of change of a material's dimension when there is a temperature change. 
+
+### **Linear Expansion**
+the linear expansion or contraction is the change in length due to the change in temperature.
+$$
+\begin{align}
+\Delta L \> &= \> \alpha \, L_o \,\Delta t \notag \\ 
+L_f \> &= \> L_o\,(1 \, + \, \alpha \, \Delta t)
+\end{align}
+$$
+
+### **Area Expansion**
+the area expansion or contraction is the change in area due to the change in temperature.
+$$
+\begin{align}
+\Delta A \> &= \> \gamma \, A_o \,\Delta t \notag \\ 
+A_f \> &= \> A_o\,(1 \, + \, \gamma \, \Delta t)
+\end{align}
+$$
+
+### **Volume Expansion**
+the volume expansion or contraction is the change in volume due to the change in temperature.
+$$
+\begin{align}
+\Delta V \> &= \> \beta \, V_o \,\Delta t \notag \\ 
+V_f \> &= \> V_o\,(1 \, + \, \beta \, \Delta t)
+\end{align}
+$$
+## **Problems** 
+
+## Heat
+Refers to the transfer of thermal energyfrom a body of high temperature to a body of low temperature.
+
+Units of temperature:
+
+Sensible Heat..
+
+$$Q \> = \> m \, c \, \Delta t \notag$$
+## **Problems:**
 
 
-
-
-
-
+> [!example]
+> A temperature control system is operated by the expansion of a zinc rod which is 200mm long at 15°C. If the system is set so that the source of heat supply is cut off when the rod has expanded to 200.20 mm, determine the temperature to which the system is limited. Assume the coefficient of linear expansion of zinc to be $31 \times 10^{-6} \frac{1}{K}$
