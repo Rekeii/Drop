@@ -177,18 +177,95 @@ $$
 V_f \> &= \> V_o\,(1 \, + \, \beta \, \Delta t)
 \end{align}
 $$
-## **Problems** 
-
-## Heat
-Refers to the transfer of thermal energyfrom a body of high temperature to a body of low temperature.
-
-Units of temperature:
-
-Sensible Heat..
-
-$$Q \> = \> m \, c \, \Delta t \notag$$
-## **Problems:**
+## **Problems:** 
 
 
 > [!example]
-> A temperature control system is operated by the expansion of a zinc rod which is 200mm long at 15°C. If the system is set so that the source of heat supply is cut off when the rod has expanded to 200.20 mm, determine the temperature to which the system is limited. Assume the coefficient of linear expansion of zinc to be $31 \times 10^{-6} \frac{1}{K}$
+> A temperature control system is operated by the expansion of a zinc rod which is 200mm long at 15°C. If the system is set so that the source of heat supply is cut off when the rod has expanded to 200.20 mm, determine the temperature to which the system is limited. Assume the coefficient of linear expansion of zinc to be $31 \times 10^{-6} \frac{1}{K}.$
+
+**ANSWER:  462 °C** *(Find the temperature)*
+
+$$ 
+\begin{align}
+L_f &= L_o \,(1 + \alpha \, \Delta t) \notag \\
+200.20 \, \text{mm} & = 200 \, \text{m} \cdot \left(1 + \left(31 \times 10^{-6} \frac{1}{\text{K}}\right)(x-15°C)\right) \notag \\ \notag \\
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x & = 47.26 \, °C \notag
+\end{align}
+
+$$
+
+> [!example]
+> The brass bar and aluminum bar in the drawing are attached to an immovable wall. At $28°C$ the air gap between the rods is $1.3 \times 10^{-3}m.$ At what temperature will the gap be closed? 
+> $\alpha_{ALUMINUM} = 23 \times 10^{-6} \frac{1}{C°} \>$ and $\> \alpha_{BRASS} = 19 \times 10^{-6} \frac{1}{C°}$
+
+![[Screenshot 2024-08-24 123337.png]]
+**ANSWER:  49.31 °C** *(Find the temperature)*
+
+$$ 
+\begin{align}
+\clap{recall:} \notag \\
+\Delta L \> &= \> \alpha \, L_o \,\Delta t \notag \\ 
+\Delta L_{BRASS}\> + \> \Delta L_{ALUMINUM} &=  1.3 \times 10^{-3}m \notag \\
+\alpha \, L_o \,\Delta t \, + \, \alpha \, L_o \,\Delta t &= 1.3 \times 10^{-3}m \notag \\ \notag
+
+\end{align}
+$$
+$$
+\begin{align}
+\left[19 \times 10^{-6} \frac{1}{C°} \, \cdot \, 2m \, \cdot \, (x - 28°C) \right] \, + \, \left[3 \times 10^{-6} \frac{1}{C°} \, \cdot \,  1m \, \cdot \, (x - 28°C)\right] &= 1.3 \times 10^{-3}m \notag \\ \notag \\ \notag
+\end{align}
+$$
+$$
+\begin{align}
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x = 49.31 \, °C \notag
+\end{align}
+$$
+
+
+> [!example]
+> A 10-m length bar with a crack at its center buckles up due to an increase of temperature of 30C°. If the coefficient of linear expansion of the bar is $30 \times 10^{-6} \frac{1}{C°}$, find the vertical displacement of the center.
+
+**ANSWER:  0.2122 m** *(Find the vertical displacement from the center)*
+
+$$
+\begin{align}
+L_f &= L_o \,(1 + \alpha \, \Delta t) \notag \\
+L_{f} &= 5m \, \cdot \,(1 + 30 \times 10^{-6} \frac{1}{C°} \, \cdot \, 30C°) \notag \\
+L_{f} &= 5.0045 \,m \\ \notag \\
+\clap{Using Pythagorean Theorem:} \notag \\ \notag \\ 
+\sqrt{(c^{2} - a^{2})} &= b \notag \\
+b &= \sqrt{(5.0045m)^{2} \, - \, (5m)^{2}} \notag\\
+b &= 0.2122\,m \notag \\
+
+x &= 0.2122\,m \notag \\
+&\approx \, 0.21\,m\notag
+
+\end{align}
+$$
+## Heat
+Refers to the transfer of thermal energy from a body of high temperature to a body of low temperature.
+
+Units of temperature:
+
+| JOULE | CALORIE | BTU (British Thermal Unit) |
+| ----- | ------- | -------------------------- |
+4.186 J = 1 cal
+
+
+**Sensible Heat** - when transfer of energy is by virtue of the temperature difference.
+
+$$
+\begin{align}
+Q \> = \> m \, c \, \Delta t \notag
+\end{align}
+$$
+**Specific Heat Capacity**
+
+| $\frac{J}{kg\,-\,C°}$ | $\frac{cal}{g\,-\,C°}$ |
+| --------------------- | ---------------------- |
+
+
+## **Problems:**
+
