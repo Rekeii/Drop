@@ -301,7 +301,7 @@ $$
 > [!example]
 > A temperature control system is operated by the expansion of a zinc rod which is 200 mm long at 15°C. If the system is set so that the source of heat supply is cut off when the rod has expanded to 200.20 mm, determine the temperature to which the system is limited. Assume the coefficient of linear expansion of zinc to be $31 \times 10^{-6} \frac{1}{K}$.
 
-**ANSWER:  47.26°C  *(Find the temperature where system is limited)**
+**ANSWER:  47.26°C  *(Find the temperature where system is limited)*
 $$
 
 \begin{aligned}
@@ -319,7 +319,7 @@ $$
 > [!example]
 > A 14 grams aluminum beer contains 375 mL of beer. How much ice at 0°C will have to melt in order to cool 24 full cans from 25°C to 2°C? The specific heats of beer and aluminum are 4.0 and $0.88 \frac{kJ}{kg-C°}$, respectively, and the relative density of the beer is 0.985.
 
-**ANSWER:  2.46 kg *(Find the mass of ice)**
+**ANSWER:  2.46 kg** *(Find the mass of ice)*
 
 $$
 
