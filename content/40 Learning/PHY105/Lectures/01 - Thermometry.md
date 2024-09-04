@@ -1,3 +1,12 @@
+---
+tags:
+  - PHY105
+  - Lecture
+aliases:
+  - Thermal Physics
+  - thermal physics
+---
+
 [[Learning Dashboard]] / [[Home]] / [[01 - Thermometry]]
 
 # 01 - Thermometry
@@ -263,9 +272,106 @@ Q \> = \> m \, c \, \Delta t \notag
 $$
 **Specific Heat Capacity**
 
-| $\frac{J}{kg\,-\,C°}$ | $\frac{cal}{g\,-\,C°}$ |
-| --------------------- | ---------------------- |
+
+$\frac{J}{kg\,-\,C°}$ OR  $\frac{cal}{g\,-\,C°}$
 
 
 ## **Problems:**
+
+> [!example]
+> In an effort to stay awake for an all night study session, a student makes a cup of coffee by first placing a 200-W electric immersion heater in 0.320 kg of water. How much time is required to raise its temperature from 20 °C to 80 °C? Assume that all of the heater’s power goes into heating the water.
+
+**ANSWER:  401.86s** *(Find the time required to raise the temp from 20°C to 80°C)*
+$$
+\begin{aligned}
+
+Q \, &= \, mc\Delta T \notag \\
+Q \, &= \, 0.320kg \, \times \, 4186 \frac{J}{kg \, \cdot \, C\degree} \, \times \, (80\degree C \, - \, 20\degree C) \notag \\
+Q \, &= \, 80371.25 \, J \notag \\ \notag \\ 
+\clap{RECALL:} \notag \\ \notag \\
+P &= \frac{Q}{t} \, ; \, t = \frac{Q}{P} \notag \\
+t &= \frac{80371.25J}{200W}\notag \\
+t &= 401.856 s \notag \\
+t &\approx 401.86 s
+
+\end{aligned}
+$$
+
+
+> [!example]
+> A temperature control system is operated by the expansion of a zinc rod which is 200 mm long at 15°C. If the system is set so that the source of heat supply is cut off when the rod has expanded to 200.20 mm, determine the temperature to which the system is limited. Assume the coefficient of linear expansion of zinc to be $31 \times 10^{-6} \frac{1}{K}$.
+
+**ANSWER:  47.26°C  *(Find the temperature where system is limited)**
+$$
+
+\begin{aligned}
+
+L \, &= \, L_{o}\,(1 \,+ \, \alpha \Delta T) \notag \\
+200.20mm \, &= \, 200mm \, \left(1 + \left(31 \times 10^{-6} \frac{1}{K}\right) \, \cdot \, (x - 15\degree C)\right) \notag \\ \notag \\
+
+\clap{Using SHIFT+SOLVE in your calculator:}\notag \\\notag\\
+x &= 47.26 \degree C \notag
+
+\end{aligned}
+
+$$
+
+> [!example]
+> A 14 grams aluminum beer contains 375 mL of beer. How much ice at 0°C will have to melt in order to cool 24 full cans from 25°C to 2°C? The specific heats of beer and aluminum are 4.0 and $0.88 \frac{kJ}{kg-C°}$, respectively, and the relative density of the beer is 0.985.
+
+**ANSWER:  2.46 kg *(Find the mass of ice)**
+
+$$
+
+\begin{aligned}
+\clap{Solving for Aluminum:} \notag \\ \notag \\
+24 \, \times \, 0.014kg \, &= \, 0.336 kg \notag \\
+Q \, &= \, mc\Delta T \notag \\
+Q \, &= \, 0.336kg \, \times \, 0.88 \, \frac{kJ}{kg \, \cdot \, C\degree} \, \times \, 23 \degree C \notag \\ 
+Q \, &= \, 6.80064 \, kJ \notag \\ \notag \\
+
+\clap{Solving for the mass of Beer:} \notag \\ \notag \\
+375 \, mL \, &= \, 0.375 \, L \notag \\
+\left(0.905 \, \frac{kg}{\cancel{L}} \, \times \, 0.375 \, \cancel{L}\right) \, \times \, 24 \, &= \, 8.865 \, kg \notag \\ \notag \\
+
+\clap{Solving for Beer:} \notag \\ \notag \\
+ 
+Q \, &= \, mc\Delta T \notag \\
+Q \, &= \, 8.865kg \, \times \, 4 \, \frac{kJ}{kg \, \cdot \, C\degree} \, \times \, 23 \degree C \notag \\ 
+Q \, &= \, 815.58 \, kJ \notag \\ \notag \\
+
+\clap{Solving for total kJ:} \notag \\ \notag \\
+
+Q_{total} \, &= \, 815.58 \, kJ \, +  \, 6.80064 \, kJ \notag \\
+Q_{total} \, &= \, 822.38064 \, kJ  \notag \\
+Q_{total} \, &\approx \, 822.38 \, kJ \notag \\ \notag \\
+
+\clap{Solving for mass of Ice:} \notag \\ \notag \\
+
+Q \, &= \, mL_{f} \notag \\
+m \, &= \, \frac{822.38064 \, kJ}{334 \frac{kJ}{kg}} \notag \\
+m \, &= \, 2.46 \, kg \notag \\
+
+\end{aligned}
+
+$$
+
+> [!example]
+> An aluminum container of capacity 1500 mL is filled with 1490 mL of water at 20°C. The system is then heated slowly so that the water does not evaporate. At what temperature will the container be fully filled with water? αaluminum = $2.38 \times 10^{-5} \frac{1}{C°}$ and αwater = $2.10 \times 10^{-4} \frac{1}{C°}$
+
+$$
+
+$$
+
+> [!example]
+> Ice at −10°C and steam at 115°C are brought together in a perfectly insulated container. After thermal equilibrium is reached, the liquid phase at 50°C is present. Ignoring the container, find the ratio of the mass of steam to the mass of ice. The specific heat capacity of steam is $0.48 \frac{cal}/{(g·C°)}$ and the specific heat capacity of ice is $0.5 \frac{cal}{(g·C°)}$
+
+> [!example]
+> A substance has the following properties; Boiling Point = 120°C, Freezing Point = -20°C, specific heat as a gas, liquid and solid, $0.8 \frac{cal}{g-C°}$, $3 \frac{cal}{g-C°}$ and $2 cal/g-C°$, respectively. Heat of fusion = $200 \frac{cal}{g}$ and heat of vaporization = $800 \frac{cal}{g}$. How much heat must be added in changing 100g of this substance from -40°C to 180°C?
+
+> [!example]
+> A pot with a steel bottom 8.50 mm thick rests on a hot stove. The area of the bottom of the pot is $0.15 m^2$. The water inside the pot is at 100°C and 0.390 kg are evaporated every 3 min. Find the temperature of the lower surface of the pot which is in contact with the stove. Thermal conductivity of steel is $50.2 \, \frac{W}{m-K}$
+
+> [!example]
+> Three building materials, plasterboard ($k \, =\, 0.30 \frac{J}{(s-m-C°)}$), brick ($k \, = \,0.60 \frac{J}{(s-m-C°)}$), and wood ($k \, = \, 0.10 \frac{J}{(s-m-C°)}$), are sandwiched together. The temperatures at the inside and outside surfaces are 32°C and 0°C, respectively. Each material has the same thickness and cross-sectional area. Find the temperature (a) at the plaster-board-brick interface and (b) at the brick-wood interface. (b) How much heat is conducted in 8 hours?
 
