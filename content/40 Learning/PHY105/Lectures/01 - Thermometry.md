@@ -35,7 +35,7 @@ Conversion between Temperature Scale:
 $$
 
 \begin{align}
-t_c \, &= \, \frac{5}{9} \>\cdot \> (t_f - 32) \\ \notag \\
+t_c \, &= \, \frac{5}{9} \>\cdot \> (t_f - 32) \notag \\ \notag \\
 t_f \, &= \, (\frac{9}{5} \>\cdot \> t_c)\>+ \>32 \notag \\ \notag \\
 t_k \, &= \,t_c \> + \> 273.15 \notag \\ \notag \\
 t_r \, &= \, t_f \> + \> 460 \notag 
@@ -208,7 +208,10 @@ $$
 > The brass bar and aluminum bar in the drawing are attached to an immovable wall. At $28°C$ the air gap between the rods is $1.3 \times 10^{-3}m.$ At what temperature will the gap be closed? 
 > $\alpha_{ALUMINUM} = 23 \times 10^{-6} \frac{1}{C°} \>$ and $\> \alpha_{BRASS} = 19 \times 10^{-6} \frac{1}{C°}$
 
+
 ![[Screenshot 2024-08-24 123337.png]]
+
+
 **ANSWER:  49.31 °C** *(Find the temperature)*
 
 $$ 
@@ -242,7 +245,7 @@ $$
 \begin{align}
 L_f &= L_o \,(1 + \alpha \, \Delta t) \notag \\
 L_{f} &= 5m \, \cdot \,(1 + 30 \times 10^{-6} \frac{1}{C°} \, \cdot \, 30C°) \notag \\
-L_{f} &= 5.0045 \,m \\ \notag \\
+L_{f} &= 5.0045 \,m \notag \\ \notag \\
 \clap{Using Pythagorean Theorem:} \notag \\ \notag \\ 
 \sqrt{(c^{2} - a^{2})} &= b \notag \\
 b &= \sqrt{(5.0045m)^{2} \, - \, (5m)^{2}} \notag\\
