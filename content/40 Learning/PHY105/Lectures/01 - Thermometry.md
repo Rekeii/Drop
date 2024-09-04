@@ -35,7 +35,7 @@ Conversion between Temperature Scale:
 $$
 
 \begin{align}
-t_c \, &= \, \frac{5}{9} \>\cdot \> (t_f - 32) \notag \\ \notag \\
+t_c \, &= \, \frac{5}{9} \>\cdot \> (t_f - 32) \notag \\ \notag \\ \notag
 t_f \, &= \, (\frac{9}{5} \>\cdot \> t_c)\>+ \>32 \notag \\ \notag \\
 t_k \, &= \,t_c \> + \> 273.15 \notag \\ \notag \\
 t_r \, &= \, t_f \> + \> 460 \notag 
@@ -165,7 +165,7 @@ the linear expansion or contraction is the change in length due to the change in
 $$
 \begin{align}
 \Delta L \> &= \> \alpha \, L_o \,\Delta t \notag \\ 
-L_f \> &= \> L_o\,(1 \, + \, \alpha \, \Delta t)
+L_f \> &= \> L_o\,(1 \, + \, \alpha \, \Delta t) \notag
 \end{align}
 $$
 
@@ -174,7 +174,7 @@ the area expansion or contraction is the change in area due to the change in tem
 $$
 \begin{align}
 \Delta A \> &= \> \gamma \, A_o \,\Delta t \notag \\ 
-A_f \> &= \> A_o\,(1 \, + \, \gamma \, \Delta t)
+A_f \> &= \> A_o\,(1 \, + \, \gamma \, \Delta t) \notag
 \end{align}
 $$
 
@@ -183,7 +183,7 @@ the volume expansion or contraction is the change in volume due to the change in
 $$
 \begin{align}
 \Delta V \> &= \> \beta \, V_o \,\Delta t \notag \\ 
-V_f \> &= \> V_o\,(1 \, + \, \beta \, \Delta t)
+V_f \> &= \> V_o\,(1 \, + \, \beta \, \Delta t) \notag
 \end{align}
 $$
 ## **Problems:** 
@@ -245,7 +245,7 @@ $$
 \begin{align}
 L_f &= L_o \,(1 + \alpha \, \Delta t) \notag \\
 L_{f} &= 5m \, \cdot \,(1 + 30 \times 10^{-6} \frac{1}{C°} \, \cdot \, 30C°) \notag \\
-L_{f} &= 5.0045 \,m \notag \\ \notag \\
+L_{f} &= 5.0045 \,m \notag \\ \notag \\ \notag
 \clap{Using Pythagorean Theorem:} \notag \\ \notag \\ 
 \sqrt{(c^{2} - a^{2})} &= b \notag \\
 b &= \sqrt{(5.0045m)^{2} \, - \, (5m)^{2}} \notag\\
@@ -279,7 +279,7 @@ $$
 $\frac{J}{kg\,-\,C°}$ OR  $\frac{cal}{g\,-\,C°}$
 
 
-## **Problems:**
+## **SW02, September 4, 2024*
 
 > [!example]
 > In an effort to stay awake for an all night study session, a student makes a cup of coffee by first placing a 200-W electric immersion heater in 0.320 kg of water. How much time is required to raise its temperature from 20 °C to 80 °C? Assume that all of the heater’s power goes into heating the water.
